@@ -1,0 +1,21 @@
+saaj (1.4.0-3) unstable; urgency=medium
+
+  * Fixed the build failure with Java 11 (Closes: #912352)
+  * Standards-Version updated to 4.2.1
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Fri, 02 Nov 2018 11:47:56 +0100
+
+saaj (1.4.0-2) unstable; urgency=medium
+
+  * Fixed the OSGi metadata
+  * Fixed a build failure with Java 10
+  * Standards-Version updated to 4.1.5
+  * Use salsa.debian.org Vcs-* URLs
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Sun, 29 Jul 2018 00:27:18 +0200
+
+saaj (1.4.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #894405)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 29 Mar 2018 23:58:06 +0200

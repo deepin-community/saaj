@@ -1,0 +1,30 @@
+Source: saaj
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends:
+ debhelper (>= 11),
+ default-jdk,
+ junit4,
+ libactivation-java,
+ libbuild-helper-maven-plugin-java,
+ libmaven-bundle-plugin-java,
+ maven-debian-helper (>= 2.1)
+Standards-Version: 4.2.1
+Vcs-Git: https://salsa.debian.org/java-team/saaj.git
+Vcs-Browser: https://salsa.debian.org/java-team/saaj
+Homepage: https://javaee.github.io/javaee-spec/
+
+Package: libsaaj-java
+Architecture: all
+Depends: ${maven:Depends}, ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: SOAP with Attachment API for Java
+ The SOAP with Attachments API for Java (SAAJ) provides the API for
+ creating and building SOAP messages. The SAAJ API conforms to the
+ Simple Object Access Protocol (SOAP) 1.1 and 1.2 specifications, and
+ the SOAP with Attachments specification.
+ .
+ The SAAJ API defines the javax.xml.soap package which was integrated
+ to the JRE since Java 6 and was eventually removed in Java 11.
